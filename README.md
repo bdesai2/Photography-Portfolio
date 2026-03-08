@@ -105,85 +105,111 @@ src/
 2. Create a feature branch: `git checkout -b feature-name`
 3. Commit your changes: `git commit -am 'Add new feature'`
 4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## Changelog
-
-### Version 1.0.0 (January 24, 2026)
-
-- **Initial Release**
-  - Complete photography portfolio website
-  - 6 photo collections with sample images
-  - Responsive design for all devices
-  - Dark theme with modern UI
-  - Interactive gallery with modal viewer
-  - Contact form functionality
-  - Optimized performance with lazy loading
-
-### Version 0.1.0 (Development)
-
-- Basic React setup with Tailwind CSS
-- Initial component structure
-- PostCSS configuration fixes
-- Component refactoring for better organization
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
 # AI Photo Gallery (Lens & Light)
 
-React photo gallery demo (split into components).
+React photo gallery demo and portfolio site composed of small, focused components.
+
+**This README was updated to reflect recent feature work and a patch-level version bump.**
+
+**Project Version:** 1.1.0
+**Last updated:** 2026-03-07
 
 ## Project overview
 
-- `src/App.js` — app composition, state and handlers
-- `src/components/` — `Header`, `HeroCarousel`, `AlbumsGrid`, `ContactForm`, `GalleryModal`
-- `src/data/images.json` — central JSON for hero and album images (edit this file to update content)
+- `src/App.js` — app composition, top-level state and handlers
+- `src/components/` — presentational components: `Header`, `HeroCarousel`, `AlbumsGrid`, `AlbumPage`, `GalleryModal`, `ContactForm`, etc.
+- `src/data/images.json` — central JSON for hero and album images (imported at build time)
 
-## How to run
+## Key Features
 
-Install dependencies and start the dev server:
+- Responsive, mobile-first photo gallery with hero carousel and album grid
+- Full-screen image modal viewer with keyboard navigation
+- Lazy loading and Intersection Observer optimizations for performance
+- Contact form (client-side demo) and Book Session CTAs
+- Download tracking for images (localStorage + optional analytics)
+
+## Recent Changes (since v1.0.0)
+
+### Version 1.1.0 (2026-03-07)
+
+- Added download tracking (`DownloadTracker`) and `DownloadButton` used in album thumbnails and modal
+- Centralized action button styles with `.action-btn` utilities in `src/index.css` for consistent theming
+- Added Book Session CTAs and a client-side `ContactLink` helper to reliably scroll to the contact form (`#contact-me`)
+- Improved album readability: descriptions that contain bullet markers (`•`) are rendered as lists, and verbose `album.content` is grouped into a collapsed "Park Details" section (collapsed by default)
+- Fixed Tailwind dynamic-class purge issues by replacing template string classes with a static `colorClasses` map where needed
+- Minor accessibility and UX improvements across the gallery and album pages
+
+### Version 1.0.0 (2026-01-24)
+
+- Initial full-feature release: gallery, albums, modal viewer, and contact form
+
+## Installation
+
+Open a PowerShell terminal and run:
 
 ```powershell
-cd "Photo-Gallery/AI_Photo-Gallery"
+cd "C:\Projects\AI projects\AI tools\photofy.me"
 npm install
 npm start
 ```
 
-If using `bun`:
+If you prefer `bun`:
 
 ```powershell
 bun install
 bun dev
 ```
 
-## Updating images
+Then open `http://localhost:3000` in your browser.
 
-Edit `src/data/images.json` to change hero images or albums. The file is imported at build time. For runtime-updatable images, host the JSON remotely and fetch it on startup (add a small loader in `src/lib/utils.js`).
+## Updating content
 
-## Versioning
+- To edit images and album metadata, update `src/data/images.json`. The file is imported at build time.
+- For runtime-updatable content, host the JSON remotely and fetch it on startup (add a small loader or hook in `src/lib/`).
 
-- Project version: 0.1.0
-- Last updated: 2026-02-14
+## Development notes & next steps
 
-## Notes & next steps
+- The contact form currently uses a demo submission handler (local alert). Replace it with a real backend integration for production.
+- Consider animating the collapsible "Park Details" section and optionally persisting its open/closed state (URL, query param, or `localStorage`) for a smoother UX.
+- For production analytics, wire the download events to your GA4 or favorite analytics backend (the `DownloadTracker` supports optional analytics calls).
 
-- The contact form currently uses a local `alert`. Pass an `onSubmit` handler to `ContactForm` to integrate with your backend.
-- Consider moving the lazy-load logic to a small utility hook in `src/lib/utils.js` if you plan to reuse it.
+## Project structure (high level)
+
+```
+src/
+├── components/
+│   ├── Header.js
+│   ├── HeroCarousel.js
+│   ├── AlbumsGrid.js
+│   ├── AlbumPage.js
+│   ├── GalleryModal.js
+│   ├── ContactForm.js
+│   └── DownloadTracker.js
+├── data/
+│   └── images.json
+├── index.css
+├── App.js
+└── index.js
+```
+
+## Technologies
+
+- React
+- Tailwind CSS
+- Lucide React icons
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -am "Add new feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request for review
+
+## License
+
+This project is licensed under the MIT License — see the `LICENSE` file for details.
 
 ---
 
 Author: Lens & Light
-
-License: MIT
->>>>>>> 7eaa6286336b021a2766dc51e2de6beddf8b655c

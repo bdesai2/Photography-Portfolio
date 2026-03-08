@@ -120,7 +120,7 @@ const ContactForm = ({ onSubmit }) => {
 
   return (
     <section className="py-20 px-4 md:px-8 bg-neutral-800">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto" id="contact-me">
         <h2 className="text-4xl font-light text-white mb-16 text-center tracking-wide">Get In Touch</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -147,7 +147,7 @@ const ContactForm = ({ onSubmit }) => {
                 </a>
               </div>
               <div className="mt-6 flex justify-center">
-                <a href="/book" className="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">
+                <a href="/book" className="action-btn action-btn--primary inline-flex items-center gap-2 px-5 py-3 rounded-lg">
                   Book Session
                 </a>
               </div>
@@ -213,7 +213,7 @@ const ContactForm = ({ onSubmit }) => {
               </div>
               <button
                 type="submit" disabled={submitStatus === 'loading'}
-                className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-800 disabled:cursor-not-allowed text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2"                
+                className="w-full action-btn action-btn--primary disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >{submitStatus === 'loading' ? (
                   <>
                     {/* Spinner */}

@@ -54,7 +54,7 @@ export default function Header({ currentPage, setCurrentPage }) {
             </button>
             <button
               onClick={() => navigate('/book')}
-              className="ml-4 px-4 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-medium transition-colors"
+              className="ml-4 action-btn action-btn--primary rounded-full"
             >
               Book Session
             </button>

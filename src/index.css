@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*.bg-blue-600 {
+  background-color: #214725;
+}
+.hover\:bg-blue-700:hover, .bg-blue-700, .bg-blue-700:hover {
+  background-color: #344d36 !important;
+}*/
+
+/* Action button utilities - use these classes for all action buttons so colors
+   can be changed centrally. Example: <button class="action-btn action-btn--primary"> */
+.action-btn {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors;
+}
+.action-btn--primary {
+  @apply bg-teal-600 hover:bg-teal-700 text-white disabled:bg-teal-800;
+}
+.action-btn--secondary {
+  @apply bg-neutral-700 hover:bg-neutral-600 text-white;
+}
+.action-btn--outline {
+  @apply bg-transparent border border-neutral-700 text-white hover:bg-neutral-800;
+}
+.action-btn--sm {
+  @apply px-3 py-1.5 text-sm;
+}
+

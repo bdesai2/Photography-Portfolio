@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import DownloadButton from './DownloadTracker';
 
 // GalleryModal: full-screen viewer for a selected album. It receives
 // navigation callbacks and the index setter from the parent so it stays
@@ -94,11 +95,25 @@ export default function GalleryModal({ selectedAlbum, selectedImage, closeGaller
 
       {/* Image + caption */}
       <div className="w-full h-full max-h-screen px-4 md:px-16 py-8 flex flex-col items-center justify-center">
-        <img
-          src={selectedAlbum.images[selectedImage]}
-          alt={`${selectedAlbum.title} ${selectedImage + 1}`}
-          className="w-full max-h-[85vh] object-contain"
-        />
+        <div className="relative w-full">
+          <img
+            src={selectedAlbum.images[selectedImage]}
+            alt={`${selectedAlbum.title} ${selectedImage + 1}`}
+            className="w-full max-h-[85vh] object-contain"
+          />
+
+          {/* Download button for the current image */}
+          <div className="absolute top-4 right-4">
+            <DownloadButton
+              photoUrl={selectedAlbum.images[selectedImage]}
+              photoName={`${selectedAlbum.title.replace(/\s+/g, '-')}-${selectedImage + 1}.jpg`}
+              albumName={selectedAlbum.title}
+              photoId={`${selectedAlbum.id}-${selectedImage}`}
+              className="px-3 py-2 text-sm"
+            />
+          </div>
+        </div>
+
         <p className="text-white mt-4 text-center text-sm md:text-base">
           {selectedAlbum.title} - {selectedImage + 1} of {selectedAlbum.images.length}
         </p>
