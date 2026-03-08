@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Instagram, Aperture, CheckCircle, XCircle } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import { trackContactFormSubmit, trackSocialClick } from './GoogleAnalytics';
 
 // ─── EmailJS Configuration ───────────────────────────────────────────────────
 // Replace these values with your actual EmailJS credentials
@@ -100,7 +101,7 @@ const ContactForm = ({ onSubmit }) => {
 
       // Reset back to idle after 5 seconds
       setTimeout(() => setSubmitStatus('idle'), 5000);
-
+      trackContactFormSubmit();
     } catch (err) {
       console.error('EmailJS error:', err);
       setSubmitStatus('error');
@@ -138,11 +139,16 @@ const ContactForm = ({ onSubmit }) => {
                 <a href="mailto:bdesai2@gmail.com" className="text-neutral-400 hover:text-white transition-colors">
                   <Mail size={24} />
                 </a>
-                <a href="https://www.instagram.com/bdesai2" className="text-neutral-400 hover:text-white transition-colors">
+                <a href="https://www.instagram.com/bdesai2" onClick={() => trackSocialClick('Instagram')} className="text-neutral-400 hover:text-white transition-colors">
                   <Instagram size={24} />
                 </a>
-                <a href="https://gurushots.com/bdesai2/" className="text-neutral-400 hover:text-white transition-colors">
+                <a href="https://gurushots.com/bdesai2/" onClick={() => trackSocialClick('GuruShots')} className="text-neutral-400 hover:text-white transition-colors">
                   <Aperture size={24} />
+                </a>
+              </div>
+              <div className="mt-6 flex justify-center">
+                <a href="/book" className="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">
+                  Book Session
                 </a>
               </div>
             </div>

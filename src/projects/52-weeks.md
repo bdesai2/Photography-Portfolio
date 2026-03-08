@@ -37,8 +37,3 @@ Sample weekly theme ideas
 - Week 4: Reflections
 - Week 5: Tiny details (macro)
 
-Quick next steps I can do for you
-- Create a project page template and wiring in `src/data/images.json` so each week's image can be added easily.
-- Generate a simple weekly schedule file `src/projects/52-weeks-schedule.json` to track image URIs and captions.
-
-Tell me if you want me to scaffold the project page and schedule file now.

@@ -10,9 +10,12 @@ import imagesData from './data/images.json';
 import ProjectsGrid from './components/ProjectsGrid';
 import ProjectPage from './components/ProjectPage';
 import AlbumPage from './components/AlbumPage';
+import BookSession from './components/BookSession';
 import { useLazyLoadImages } from './lib/utils';
 import SEO from './components/SEO';
 import { organizationSchema, personSchema } from './lib/schemas';
+import { initGA, logPageView, trackAlbumOpen } from './components/GoogleAnalytics';
+import CookieConsent from 'react-cookie-consent';
 
 // PhotographyPortfolio: top-level page component that keeps application state
 // and orchestrates composed child components. Most UI is delegated to
@@ -49,8 +52,26 @@ const PhotographyPortfolio = () => {
 
   // Use reusable hook for lazy-loading images; re-run when path/album change.
   useLazyLoadImages([path, selectedAlbum]);
+
+  // Initialize Google Analytics and log pageviews on route change
+  useEffect(() => {
+    try {
+      initGA();
+    } catch (err) {
+      // ignore
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      logPageView(path + (location.search || ''));
+    } catch (err) {
+      // ignore
+    }
+  }, [location, path]);
   // Handlers for opening / closing the full-screen album modal
   const openAlbumGallery = useCallback((album) => {
+    trackAlbumOpen(album.title);
     setSelectedAlbum(album);
     setSelectedImage(0);
   }, []);
@@ -219,6 +240,10 @@ const PhotographyPortfolio = () => {
           <Route
             path="/projects/:projectId"
             element={<ProjectRoute projects={projects} onOpenAlbum={openAlbumGallery} onOpenImage={useCallback((gallery, index) => { setSelectedAlbum(gallery); setSelectedImage(index); }, [])} />}
+          />
+          <Route
+            path="/book"
+            element={<BookSession />}
           />
         </Routes>
       </main>

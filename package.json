@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "private": true,
   "dependencies": {
-    "react-router-dom": "^6.14.1",
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -11,8 +10,11 @@
     "@testing-library/user-event": "^13.5.0",
     "lucide-react": "^0.563.0",
     "react": "^19.2.3",
+    "react-cookie-consent": "^10.0.1",
     "react-dom": "^19.2.3",
+    "react-ga4": "^2.1.0",
     "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

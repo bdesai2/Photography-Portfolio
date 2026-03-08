@@ -34,9 +34,3 @@ Outreach & partners
 Presentation ideas
 - Create a narrative gallery with captions and links to partner pages
 - Offer prints or fundraisers where proceeds support the project
-
-Quick next steps I can do for you
-- Add a sample gallery stub in `src/data/images.json` (already added) and create `src/projects/environmental-checklist.md` with upload and caption templates.
-- Draft a one-page outreach email template to send to potential partners.
-
-Which next step would you like me to take? I can scaffold the project page and add a checklist and outreach template now.

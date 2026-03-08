@@ -52,6 +52,12 @@ export default function Header({ currentPage, setCurrentPage }) {
               <Globe className="w-4 h-4" />
               Projects
             </button>
+            <button
+              onClick={() => navigate('/book')}
+              className="ml-4 px-4 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-medium transition-colors"
+            >
+              Book Session
+            </button>
           </div>
 
           {/* Mobile menu toggle */}
@@ -66,25 +72,36 @@ export default function Header({ currentPage, setCurrentPage }) {
         {/* Mobile menu content */}
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-neutral-800">
-            <button
-              onClick={() => {
+            <button onClick={() => {
                 navigate('/');
                 setMobileMenuOpen(false);
               }}
-              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors"
-            >
+              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors" >
               <Home className="w-4 h-4" />
               Home
             </button>
-            <button
-              onClick={() => {
+            <button onClick={() => {
                 navigate('/albums');
                 setMobileMenuOpen(false);
               }}
-              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors"
-            >
+              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors" >
               <Grid className="w-4 h-4" />
               Albums
+            </button>
+            <button onClick={() => {
+                navigate('/projects');
+                setMobileMenuOpen(false);
+              }}
+              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors">
+              <Globe className="w-4 h-4" />
+              Projects
+            </button>
+            <button onClick={() => {
+                navigate('/book');
+                setMobileMenuOpen(false);
+              }}
+              className="flex items-center gap-2 w-full px-4 py-2 text-white hover:bg-neutral-800 transition-colors">
+              Book Session
             </button>
           </div>
         )}
