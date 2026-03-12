@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Lens & Light Photography Portfolio
+# Photofy Me Portfolio
 
 A modern, responsive photography portfolio website built with React, showcasing stunning photo collections with smooth animations and an elegant dark theme.
 
@@ -212,4 +212,4 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 
 ---
 
-Author: Lens & Light
+Author: Photofy Me
