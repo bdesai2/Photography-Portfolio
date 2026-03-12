@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # Photofy Me Portfolio
+https://photofy.me/
 
 A modern, responsive photography portfolio website built with React, showcasing stunning photo collections with smooth animations and an elegant dark theme.
 
