@@ -97,7 +97,7 @@ export default function GalleryModal({ selectedAlbum, selectedImage, closeGaller
       <div className="w-full h-full max-h-screen px-4 md:px-16 py-8 flex flex-col items-center justify-center">
         <div className="relative w-full">
           <img
-            src={selectedAlbum.images[selectedImage]}
+            src={selectedAlbum.images[selectedImage].url}
             alt={`${selectedAlbum.title} ${selectedImage + 1}`}
             className="w-full max-h-[85vh] object-contain"
           />
@@ -105,7 +105,7 @@ export default function GalleryModal({ selectedAlbum, selectedImage, closeGaller
           {/* Download button for the current image */}
           <div className="absolute top-4 right-4">
             <DownloadButton
-              photoUrl={selectedAlbum.images[selectedImage]}
+              photoUrl={selectedAlbum.images[selectedImage].url}
               photoName={`${selectedAlbum.title.replace(/\s+/g, '-')}-${selectedImage + 1}.jpg`}
               albumName={selectedAlbum.title}
               photoId={`${selectedAlbum.id}-${selectedImage}`}
@@ -130,9 +130,7 @@ export default function GalleryModal({ selectedAlbum, selectedImage, closeGaller
       {/* Pagination dots (choose a specific image) */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
         {selectedAlbum.images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setSelectedImage(index)}
+          <button key={index} onClick={() => setSelectedImage(index)}
             className={`w-2 h-2 rounded-full transition-all ${
               index === selectedImage ? 'bg-white w-8' : 'bg-white bg-opacity-50'
             }`}

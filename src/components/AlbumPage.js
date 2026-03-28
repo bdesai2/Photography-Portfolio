@@ -46,7 +46,7 @@ const AlbumPage = ({ album, onOpenImage }) => {
       return (
         <ul className="text-neutral-300 text-sm list-disc list-inside space-y-1">
           {items.map((it, i) => (
-            <li key={i} className="truncate">{it}</li>
+            <li key={i}>{it}</li>
           ))}
         </ul>
       );
@@ -69,13 +69,13 @@ const AlbumPage = ({ album, onOpenImage }) => {
             <div key={index} className="masonry-item relative">
               <div className="relative">
                 <button onClick={() => onOpenImage(index)} aria-label={`Open image ${index + 1}`}>
-                  <img src={image} alt={`${album.title} ${index + 1}`} loading="lazy" />
+                  <img src={image.url} alt={`${album.title} ${index + 1}`} loading="lazy" />
                 </button>
 
                 {/* Download button overlay */}
                 <div className="absolute bottom-3 right-3">
                   <DownloadButton
-                    photoUrl={image}
+                    photoUrl={image.url}
                     photoName={`${album.title.replace(/\s+/g, '-')}-${index + 1}.jpg`}
                     albumName={album.title}
                     photoId={`${album.id}-${index}`}
@@ -86,11 +86,14 @@ const AlbumPage = ({ album, onOpenImage }) => {
             </div>
           ))}
         </div>
+        {album.content && album.content.length > 0 && (
         <div className="content">
           <div className="max-w-7xl mx-auto mb-8">
             <Collapsible title="Park Details" defaultOpen={false}>
-              <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-6">
+              <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-2">
                 {album.content && album.content.map((section, index) => (
+                  //show the cards in 2 columns on desktop, 1 column on mobile. 
+                  //Wrap text if too long. Use the section title as the card title and the description as the card content.
                   <div key={index} className="bg-neutral-800 p-6 rounded-lg">
                     <h2 className="text-xl text-white font-semibold mb-2">{section.Title}</h2>
                     {renderDescription(section.Description)}
@@ -100,6 +103,7 @@ const AlbumPage = ({ album, onOpenImage }) => {
             </Collapsible>
           </div>
         </div>
+        )}
       </div>
     </div>
   );

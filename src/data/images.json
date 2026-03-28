@@ -2,31 +2,67 @@
   "heroImages": [
     {
       "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771123450/_MG_3909_ok9zne.jpg",
-      "alt": "Sealions at Cabo Marina",
+      "alt": "Two seals resting on a wooden dock at a marina, with boats and water visible in the background.",
       "title": "Wildlife in their Natural Habitat",
-      "description": "Capturing the beauty of marine life in their native environment",
-      "location": "Cabo San Lucas, Mexico"
+      "description": "Intimate harbor sunbathing session. Two seals have claimed prime real estate on a weathered dock, transforming utilitarian marina infrastructure into their personal spa retreat.",
+      "location": "Cabo San Lucas, Mexico",
+      "tags": [
+        "Marine Wildlife",
+        "Harbor Scene",
+        "Peaceful Atmosphere",
+        "Golden Hour Lighting",
+        "Waterfront Location",
+        "Warm Earth Tones",
+        "Documentary Photography"
+      ]
     },
     {
       "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771123331/hero2_fdwqph.jpg",
-      "alt": "Sunset beach",
+      "alt": "A serene beach scene at sunset with gentle waves washing over dark rocks scattered along the sandy shore, while golden and orange clouds stretch across the sky and a building sits on the distant coastline.",
       "title": "Golden Hour Serenity",
-      "description": "The perfect moment when light and water create pure magic",
-      "location": "Tropical Beaches"
+      "description": "Tranquil golden hour serenity. Waves gently caress a rocky coastline as the sun paints the sky in warm pastels, creating a perfect postcard moment that probably required waking up way too early.",
+      "location": "Tropical Beaches",
+      "tags": [
+        "Seascape",
+        "Golden Hour",
+        "Tranquil",
+        "Rocky Shore",
+        "Warm Colors",
+        "Long Exposure",
+        "Coastal"
+      ]
     },
     {
       "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771123176/hero4_krh99f.jpg",
-      "alt": "Land formations in ocean",
+      "alt": "A view through a narrow canyon opening showing towering white limestone cliffs surrounding bright turquoise water with sunlight streaming from above.",
       "title": "Geological Wonders",
-      "description": "Ancient rock formations shaped by nature's artistry",
-      "location": "Coastal Regions"
+      "description": "Majestic coastal canyon drama. Towering limestone cliffs frame turquoise waters in what appears to be a hidden sea cave or fjord, creating a natural cathedral of stone and light.",
+      "location": "Coastal Regions",
+      "tags": [
+        "Seascape",
+        "Dramatic",
+        "Natural Light",
+        "Coastal",
+        "Turquoise",
+        "Limestone Cliffs",
+        "Landscape Photography"
+      ]
     },
     {
       "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771123031/hero3_e4hanc.jpg",
-      "alt": "Garza Blanca Resort",
+      "alt": "Aerial view of a luxury beachfront resort with multiple swimming pools, white umbrellas, palm trees, and turquoise ocean waters under a blue sky.",
       "title": "Architectural Elegance",
-      "description": "Luxury meets landscape in stunning resort photography",
-      "location": "Garza Blanca, Puerto Vallarta"
+      "description": "Luxurious tropical paradise vibes. An elevated view of an upscale beachfront resort showcasing pristine pools, white umbrellas, and crystal-clear waters that make your credit card weep.",
+      "location": "Garza Blanca, Puerto Vallarta",
+      "tags": [
+        "Resort",
+        "Tropical",
+        "Luxury",
+        "Bright Daylight",
+        "Aerial View",
+        "Turquoise Waters",
+        "Vacation"
+      ]
     }
   ],
   "albums": [
@@ -36,12 +72,66 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133439/DSC00427_plfbiu.jpg",
       "count": 5,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133439/DSC00427_plfbiu.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133438/DSC08240_jrw4t5.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403695/DSC06029_vkfmkm.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133442/DSC00986_pxygpb.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133043/DSC01339_dydo55.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133043/DSC03644_ywquur.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133439/DSC00427_plfbiu.jpg",
+          "description": "Focused concentration, dramatic lighting, classical dedication. A violinist works through his repertoire while the photographer works the shadows.",
+          "tags": [
+            "musician","portrait","black and white","studio","dramatic","violin","classical"
+          ],
+          "alt": "A bearded man wearing glasses and a light shirt plays violin against a black background in dramatic lighting.",
+          "title": "Violin Practice Session"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133438/DSC08240_jrw4t5.jpg",
+          "description": "Teenage confidence meets Italian backdrop. A young woman stakes her claim on the perfect photo spot while water taxis glide past below.",
+          "tags": [
+            "portrait","travel","candid","venice","midday","bridge","canal"
+          ],
+          "alt": "A young woman in a blue outfit and sunglasses poses on a stone bridge balustrade with Venice's Grand Canal and historic buildings in the background.",
+          "title": "Venice Bridge Pose"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403695/DSC06029_vkfmkm.jpg",
+          "description": "Red tape, white masks, creative chaos. Someone turned a haunted house into a crime scene investigation.",
+          "tags": [
+            "halloween costume","portrait","studio","indoor","dramatic","horror theme","party"
+          ],
+          "alt": "Person in Halloween makeup and costume posed dramatically with white masks and red danger tape crossed around them.",
+          "title": "Halloween Hazard Zone"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133442/DSC00986_pxygpb.jpg",
+          "description": "Stage lights, focused concentration, serious business. A young clarinetist performs against twinkling holiday lights like it's Carnegie Hall.",
+          "tags": [
+            "child musician","portrait","stage lighting","performance venue","evening","clarinet","holiday lights"
+          ],
+          "alt": "A young person in dark clothing plays clarinet on stage with string lights creating bokeh in the background.",
+          "title": "Young Musician Performs"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133043/DSC01339_dydo55.jpg",
+          "description": "Warm evening light, suburban backdrop, unimpressed attitude. A small dog sits in grass looking distinctly underwhelmed by the photographer's enthusiasm.",
+          "tags": [
+            "small dog","portrait","backlit","suburban","golden hour","grass"
+          ],
+          "alt": "A small fluffy dog with brown and white fur sits in grass during golden hour with a blurred suburban neighborhood in the background.",
+          "title": "Golden Hour Skeptic"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133043/DSC03644_ywquur.jpg",
+          "description": "Christmas morning, festive chaos, professional composure. A border collie sits perfectly still while someone adjusts camera settings for the third time.",
+          "tags": [
+            "dog",
+            "portrait",
+            "bokeh",
+            "indoor",
+            "christmas lights",
+            "domestic",
+            "holiday"
+          ],
+          "alt": "A black and white border collie sits in front of a blurred Christmas tree with colorful lights.",
+          "title": "Holiday Portrait Patience"
+        }
       ]
     },
     {
@@ -50,28 +140,56 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133483/DSC06846_uhy8me.jpg",
       "count": 9,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133483/DSC06846_uhy8me.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133411/DSC04653_h6m2ep.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133491/20240710_174602_joafml.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/20220701_095938_lonpnf.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/DSC00741_tajilh.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/DSC07910_npz5i6.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136175/DSC09199_v2wlr7.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771406698/20210706_110928_h6izid.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133483/DSC06846_uhy8me.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133411/DSC04653_h6m2ep.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133491/20240710_174602_joafml.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/20220701_095938_lonpnf.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/DSC00741_tajilh.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136174/DSC07910_npz5i6.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136175/DSC09199_v2wlr7.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771406698/20210706_110928_h6izid.jpg"
+        }
       ]
-    },    
+    },
     {
       "id": 3,
       "title": "Wildlife",
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC09774_ek1yje.jpg",
       "count": 9,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC09774_ek1yje.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771407659/zebra_mutwyz.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405517/DSC06175_fzpgbi.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136223/DSC08489_nhk5rv.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771406665/DSC07502_okke1x.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136221/DSC08828_ogpu0h.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC09774_ek1yje.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771407659/zebra_mutwyz.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405517/DSC06175_fzpgbi.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136223/DSC08489_nhk5rv.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771406665/DSC07502_okke1x.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136221/DSC08828_ogpu0h.jpg"
+        }
       ]
     },
     {
@@ -80,10 +198,18 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg",
       "count": 4,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133058/20240718_161401_hqlxnf.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405384/rvE6a9RDSyCprNV5Ij18Tw_yvnpj2.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405333/20201122_163951_wx6qma.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133058/20240718_161401_hqlxnf.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405384/rvE6a9RDSyCprNV5Ij18Tw_yvnpj2.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405333/20201122_163951_wx6qma.jpg"
+        }
       ]
     },
     {
@@ -92,12 +218,24 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136279/DSC08751_ygd9gi.jpg",
       "count": 6,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136279/DSC08751_ygd9gi.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403256/DSC06309_sj6xrz.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403254/DSC01763_yjagwj.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771138174/DSC02279_ufjlot.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403254/DSC02548_ariguw.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771138177/DSC02333_jfrstl.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136279/DSC08751_ygd9gi.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403256/DSC06309_sj6xrz.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403254/DSC01763_yjagwj.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771138174/DSC02279_ufjlot.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403254/DSC02548_ariguw.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771138177/DSC02333_jfrstl.jpg"
+        }
       ]
     },
     {
@@ -106,26 +244,50 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403428/DSC01937_eg5laa.jpg",
       "count": 5,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403428/DSC01937_eg5laa.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403429/DSC07091_vj4yej.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771404004/DSC00176_av6ns9.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403428/DSC01947_ggxv1g.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403429/DSC02434_kkywwc.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403428/DSC01937_eg5laa.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403429/DSC07091_vj4yej.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771404004/DSC00176_av6ns9.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403428/DSC01947_ggxv1g.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403429/DSC02434_kkywwc.jpg"
+        }
       ]
-    },    
+    },
     {
       "id": 6,
       "title": "Birds of the World",
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771137677/DSC01307_hel2hg.jpg",
       "count": 7,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771137677/DSC01307_hel2hg.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136225/DSC08502_zx8x4r.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136222/DSC08477_kcqmlv.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC07090_qzvu66.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403657/DSC02586_vxnwzn.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC07252_bjj5li.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771134454/DSC09692_gfelb2.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771137677/DSC01307_hel2hg.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136225/DSC08502_zx8x4r.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771136222/DSC08477_kcqmlv.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC07090_qzvu66.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771403657/DSC02586_vxnwzn.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771135508/DSC07252_bjj5li.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771134454/DSC09692_gfelb2.jpg"
+        }
       ]
     },
     {
@@ -134,10 +296,18 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg",
       "count": 4,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133058/20240718_161401_hqlxnf.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405384/rvE6a9RDSyCprNV5Ij18Tw_yvnpj2.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405333/20201122_163951_wx6qma.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133514/DSC08526_sbltzt.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771133058/20240718_161401_hqlxnf.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405384/rvE6a9RDSyCprNV5Ij18Tw_yvnpj2.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405333/20201122_163951_wx6qma.jpg"
+        }
       ]
     },
     {
@@ -146,12 +316,24 @@
       "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405489/DSC02450_qirwbq.jpg",
       "count": 6,
       "images": [
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405489/DSC02450_qirwbq.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405486/DSC02428_gm24mq.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405491/DSC03140_tmjp4k.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405484/DSC01899_llpkmf.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405480/DSC01879_zohkne.jpg",
-        "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405478/DSC00426_ch4d7h.jpg"
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405489/DSC02450_qirwbq.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405486/DSC02428_gm24mq.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405491/DSC03140_tmjp4k.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405484/DSC01899_llpkmf.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405480/DSC01879_zohkne.jpg"
+        },
+        {
+          "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771405478/DSC00426_ch4d7h.jpg"
+        }
       ]
     }
   ],
@@ -202,13 +384,27 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567867/20210531_074505_qlncg4.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567867/20210531_074505_qlncg4.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567867/20210531_064530_mvqmx9.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567868/20210531_062328_y90d3y.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568330/DSC05235_pseh7r.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568331/20210531_064009_hjvyp5.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568333/DSC05346_tctcvg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568330/20210531_064210_czxlnn.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567867/20210531_074505_qlncg4.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567867/20210531_064530_mvqmx9.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771567868/20210531_062328_y90d3y.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568330/DSC05235_pseh7r.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568331/20210531_064009_hjvyp5.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568333/DSC05346_tctcvg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568330/20210531_064210_czxlnn.jpg"
+            }
           ]
         },
         {
@@ -250,14 +446,30 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568917/DSC00551_vcrqqo.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568917/DSC00551_vcrqqo.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568924/DSC00456_h6yhnv.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568933/DSC00374_y3gccx.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568937/DSC00320_zgw23x.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568929/DSC00448_bhiiv7.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568924/DSC00456_h6yhnv.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568922/20221123_114536_03_lytsku.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568922/20221123_114536_03_lytsku.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568917/DSC00551_vcrqqo.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568924/DSC00456_h6yhnv.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568933/DSC00374_y3gccx.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568937/DSC00320_zgw23x.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568929/DSC00448_bhiiv7.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568924/DSC00456_h6yhnv.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568922/20221123_114536_03_lytsku.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568922/20221123_114536_03_lytsku.jpg"
+            }
           ]
         },
         {
@@ -265,11 +477,11 @@
           "title": "Biscayne National Park",
           "state": "Florida",
           "region": "Southeastern US",
-          "latitude": 25.6510,
-          "longitude": -80.0800,
+          "latitude": 25.651,
+          "longitude": -80.08,
           "visited": true,
-          "map-x": -75.4800,
-          "map-y": 25.77510,
+          "map-x": -75.48,
+          "map-y": 25.7751,
           "description": "Biscayne National Park is known for its coral reefs, mangroves, and diverse marine life.",
           "content": [
             {
@@ -295,10 +507,18 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569846/DSC09128_a3gg78.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569846/DSC09128_a3gg78.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569840/DSC09158_m8ypyw.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569831/GOPR0329_mdulfc.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569834/DSC09242_l9ewze.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569846/DSC09128_a3gg78.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569840/DSC09158_m8ypyw.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569831/GOPR0329_mdulfc.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569834/DSC09242_l9ewze.jpg"
+            }
           ]
         },
         {
@@ -306,11 +526,11 @@
           "title": "Bryce Canyon National Park",
           "state": "Utah",
           "region": "Western US",
-          "latitude": 37.5930,
+          "latitude": 37.593,
           "longitude": -112.1871,
           "visited": true,
           "map-x": -112.5871,
-          "map-y": 37.5930,
+          "map-y": 37.593,
           "description": "Bryce Canyon National Park is known for its unique geological structures called hoodoos, which are spire-shaped rock formations.",
           "content": [
             {
@@ -340,13 +560,27 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568521/DSC06323-Enhanced_lepxfz.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568521/DSC06323-Enhanced_lepxfz.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568526/DSC06192_sskmaa.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568524/DSC06202_ianjkg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568523/DSC06283-2_prlr4s.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568517/DSC06168_igujeu.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568515/DSC06178_dn2kem.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568516/DSC06175-2_otrq6g.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568521/DSC06323-Enhanced_lepxfz.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568526/DSC06192_sskmaa.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568524/DSC06202_ianjkg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568523/DSC06283-2_prlr4s.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568517/DSC06168_igujeu.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568515/DSC06178_dn2kem.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568516/DSC06175-2_otrq6g.jpg"
+            }
           ]
         },
         {
@@ -388,12 +622,24 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568400/DSC05433_v0cjpa.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568400/DSC05433_v0cjpa.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568398/20210531_192746_tthkil.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568400/DSC05438_uusrov.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/DSC05497_bgrffq.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/DSC05490_eaj1sz.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/20210531_203119_zcowru.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568400/DSC05433_v0cjpa.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568398/20210531_192746_tthkil.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568400/DSC05438_uusrov.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/DSC05497_bgrffq.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/DSC05490_eaj1sz.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568397/20210531_203119_zcowru.jpg"
+            }
           ]
         },
         {
@@ -435,13 +681,27 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568429/20210601_170848_moznau.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568429/20210601_170848_moznau.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568432/DSC05736_nwcayz.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568434/DSC05845_amvltv.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568439/20210601_191130_abnfs5.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568435/20210601_193730_x6pnir.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568428/DSC05791_gvtijq.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568447/DSC05796-2_vij1jb.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568429/20210601_170848_moznau.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568432/DSC05736_nwcayz.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568434/DSC05845_amvltv.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568439/20210601_191130_abnfs5.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568435/20210601_193730_x6pnir.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568428/DSC05791_gvtijq.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568447/DSC05796-2_vij1jb.jpg"
+            }
           ]
         },
         {
@@ -487,17 +747,39 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569907/DSC01117_c7ue4y.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569907/DSC01117_c7ue4y.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569929/20220312_085905_ktv4zu.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569916/DSC01074_rvatoe.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569913/DSC01107_ehbu1y.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569941/DSC00681_obgjs3.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569946/DSC00495_rl18tr.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569938/20220311_170722_daozw1.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569935/20220311_172923_v3qqhp.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569932/DSC00916_bcap1u.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569926/DSC00985_pwqmua.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569924/DSC01028_jhqryw.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569907/DSC01117_c7ue4y.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569929/20220312_085905_ktv4zu.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569916/DSC01074_rvatoe.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569913/DSC01107_ehbu1y.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569941/DSC00681_obgjs3.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569946/DSC00495_rl18tr.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569938/20220311_170722_daozw1.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569935/20220311_172923_v3qqhp.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569932/DSC00916_bcap1u.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569926/DSC00985_pwqmua.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569924/DSC01028_jhqryw.jpg"
+            }
           ]
         },
         {
@@ -508,8 +790,8 @@
           "latitude": 25.2866,
           "longitude": -80.8987,
           "visited": true,
-          "map-x": -76.8800,
-          "map-y": 25.4510,
+          "map-x": -76.88,
+          "map-y": 25.451,
           "description": "Everglades National Park is known for its unique ecosystem, including wetlands, mangroves, and diverse wildlife.",
           "content": [
             {
@@ -543,19 +825,45 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569593/DSC08916_bc5x6h.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569593/DSC08916_bc5x6h.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569588/DSC07988_mzcm8o.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569601/DSC08877_nvmzgk.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569610/DSC08628_dk610i.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569613/20210805_130256_vskmao.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569616/20210805_122516_qc22p4.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569734/DSC08360_imthgg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569636/DSC08024_ltp95e.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569633/DSC08048_k53njn.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569630/DSC08131_jdu2qq.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569623/DSC08438_l5opca.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569626/DSC08399_gmaq1l.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569598/DSC08880_1_ndcplx.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569593/DSC08916_bc5x6h.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569588/DSC07988_mzcm8o.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569601/DSC08877_nvmzgk.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569610/DSC08628_dk610i.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569613/20210805_130256_vskmao.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569616/20210805_122516_qc22p4.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569734/DSC08360_imthgg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569636/DSC08024_ltp95e.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569633/DSC08048_k53njn.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569630/DSC08131_jdu2qq.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569623/DSC08438_l5opca.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569626/DSC08399_gmaq1l.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569598/DSC08880_1_ndcplx.jpg"
+            }
           ]
         },
         {
@@ -597,15 +905,33 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568567/DSC04536_n8nxo1.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568567/DSC04536_n8nxo1.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568795/DSC04398_tf1qu4.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568792/20210528_192540_oioqd2.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568572/20210528_125103_yz4klj.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568570/DSC04419_camtz9.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568568/DSC04504_lr4wzt.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568566/DSC04547_shzxwg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568561/20210529_123638_tmuysy.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568560/DSC04790_fnryfa.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568567/DSC04536_n8nxo1.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568795/DSC04398_tf1qu4.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568792/20210528_192540_oioqd2.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568572/20210528_125103_yz4klj.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568570/DSC04419_camtz9.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568568/DSC04504_lr4wzt.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568566/DSC04547_shzxwg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568561/20210529_123638_tmuysy.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568560/DSC04790_fnryfa.jpg"
+            }
           ]
         },
         {
@@ -647,12 +973,24 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571453/DSC00209_w6anvz.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571453/DSC00209_w6anvz.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571469/DSC00423_hiyojm.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571465/20220309_135745_kos4x7.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571461/DSC00108_kxhjwe.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571449/20220310_172202_m1y2s7.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571445/DSC00421_u9ur8v.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571453/DSC00209_w6anvz.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571469/DSC00423_hiyojm.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571465/20220309_135745_kos4x7.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571461/DSC00108_kxhjwe.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571449/20220310_172202_m1y2s7.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571445/DSC00421_u9ur8v.jpg"
+            }
           ]
         },
         {
@@ -694,15 +1032,33 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569204/DSC08918_xxhdci.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569204/DSC08918_xxhdci.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569190/DSC09796_vtzhjq.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569206/DSC08661_klkrfm.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569209/DSC08645_ihrdc3.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569199/DSC09057_nenbqa.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569197/DSC09109_dcxf0n.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569193/DSC09745_yskupg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569193/DSC09745_yskupg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569184/DSC09856_flelgv.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569204/DSC08918_xxhdci.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569190/DSC09796_vtzhjq.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569206/DSC08661_klkrfm.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569209/DSC08645_ihrdc3.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569199/DSC09057_nenbqa.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569197/DSC09109_dcxf0n.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569193/DSC09745_yskupg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569193/DSC09745_yskupg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569184/DSC09856_flelgv.jpg"
+            }
           ]
         },
         {
@@ -710,11 +1066,11 @@
           "title": "North Cascades National Park",
           "state": "Washington",
           "region": "Western US",
-          "latitude": 48.7710,
-          "longitude": -121.2980,
+          "latitude": 48.771,
+          "longitude": -121.298,
           "visited": true,
-          "map-x": -118.2980,
-          "map-y": 48.7710,
+          "map-x": -118.298,
+          "map-y": 48.771,
           "description": "North Cascades National Park is known for its rugged mountain landscapes, glaciers, and diverse ecosystems.",
           "content": [
             {
@@ -744,14 +1100,30 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569130/DSC08385_z9shoe.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569130/DSC08385_z9shoe.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569142/20230525_153152_xnwpw5.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569139/20230525_153405_vbt1pr.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569137/20230525_154546_ujt7yh.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569128/DSC08399_jmzkxs.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569126/20230525_140130-2_cxjqkw.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569122/20230525_151749_tc601k.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569120/20230525_152349_z1lwrs.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569130/DSC08385_z9shoe.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569142/20230525_153152_xnwpw5.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569139/20230525_153405_vbt1pr.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569137/20230525_154546_ujt7yh.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569128/DSC08399_jmzkxs.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569126/20230525_140130-2_cxjqkw.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569122/20230525_151749_tc601k.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569120/20230525_152349_z1lwrs.jpg"
+            }
           ]
         },
         {
@@ -793,15 +1165,33 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569041/DSC00678_mjxadf.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569041/DSC00678_mjxadf.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569043/DSC00580_lzgpl6.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569047/DSC00287_flpend.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569045/20230601_202846_gnpd7t.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569051/20230531_162410_icvldk.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569049/DSC00268_u5khy1.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569053/DSC00229_nsqmz0.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569055/DSC00167_zflocb.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569057/DSC00709_tc6tqm.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569041/DSC00678_mjxadf.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569043/DSC00580_lzgpl6.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569047/DSC00287_flpend.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569045/20230601_202846_gnpd7t.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569051/20230531_162410_icvldk.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569049/DSC00268_u5khy1.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569053/DSC00229_nsqmz0.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569055/DSC00167_zflocb.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771569057/DSC00709_tc6tqm.jpg"
+            }
           ]
         },
         {
@@ -843,13 +1233,27 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571258/20220309_131903_r2xc2a.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571258/20220309_131903_r2xc2a.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571416/DSC00220_rjuzwh.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571402/DSC00281_nmhc3m.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571265/DSC00015_qld94x.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571293/20220310_175200_mzzsvy.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571258/20220309_131903_r2xc2a.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571261/20220309_123349_i36mlp.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571258/20220309_131903_r2xc2a.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571416/DSC00220_rjuzwh.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571402/DSC00281_nmhc3m.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571265/DSC00015_qld94x.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571293/20220310_175200_mzzsvy.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571258/20220309_131903_r2xc2a.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571261/20220309_123349_i36mlp.jpg"
+            }
           ]
         },
         {
@@ -891,16 +1295,36 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571180/DSC04600_dz9wmf.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571180/DSC04600_dz9wmf.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571176/DSC04608_hrbdit.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571173/DSC04629_ua9uft.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571190/DSC04573_qhdaaj.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571194/DSC04562_f1cbaw.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571201/DSC04492_np9vvp.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571197/DSC04506_vi1ogz.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571205/DSC04243_abvymr.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571209/DSC04096_k2l4u0.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571217/DSC04087_ufolyj.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571180/DSC04600_dz9wmf.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571176/DSC04608_hrbdit.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571173/DSC04629_ua9uft.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571190/DSC04573_qhdaaj.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571194/DSC04562_f1cbaw.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571201/DSC04492_np9vvp.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571197/DSC04506_vi1ogz.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571205/DSC04243_abvymr.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571209/DSC04096_k2l4u0.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571217/DSC04087_ufolyj.jpg"
+            }
           ]
         },
         {
@@ -942,13 +1366,27 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571558/20220306_144443_e74zte.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571558/20220306_144443_e74zte.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571567/DSC09240_g15lyk.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571571/DSC08990_atd0hg.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571562/DSC09245_khytbl.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571541/DSC09590_zelbyd.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571536/DSC09677_daekqv.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571532/DSC09885_dxwkzj.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571558/20220306_144443_e74zte.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571567/DSC09240_g15lyk.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571571/DSC08990_atd0hg.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571562/DSC09245_khytbl.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571541/DSC09590_zelbyd.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571536/DSC09677_daekqv.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771571532/DSC09885_dxwkzj.jpg"
+            }
           ]
         },
         {
@@ -990,19 +1428,32 @@
           ],
           "thumbnail": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568847/DSC07288_svewi3.jpg",
           "images": [
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568847/DSC07288_svewi3.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568849/20210606_125346_ycoeka.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568851/DSC07090_uhhfss.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568848/20210606_130010_hm2qec.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568853/DSC06684_l1cy2j.jpg",
-            "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568856/20210604_160219_r0lbhn.jpg"
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568847/DSC07288_svewi3.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568849/20210606_125346_ycoeka.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568851/DSC07090_uhhfss.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568848/20210606_130010_hm2qec.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568853/DSC06684_l1cy2j.jpg"
+            },
+            {
+              "url": "https://res.cloudinary.com/du9uhtjxi/image/upload/v1771568856/20210604_160219_r0lbhn.jpg"
+            }
           ]
         }
       ]
-    },    
+    },
     {
       "id": "state-parks",
-      "title": "US State Parks", "enabled": false,
+      "title": "US State Parks",
+      "enabled": false,
       "thumbnail": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=800&fit=crop",
       "description": "A curated collection of state parks across the United States. Use the map filters to find parks by state and region.",
       "galleries": [
@@ -1011,7 +1462,7 @@
           "title": "Guadalupe River State Park",
           "state": "Texas",
           "region": "Southern US",
-          "map-x": -99.0,
+          "map-x": -99,
           "map-y": 29.8,
           "thumbnail": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=800&fit=crop",
           "images": []

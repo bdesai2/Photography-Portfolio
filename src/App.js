@@ -15,7 +15,7 @@ import { useLazyLoadImages } from './lib/utils';
 import SEO from './components/SEO';
 import { organizationSchema, personSchema } from './lib/schemas';
 import { initGA, logPageView, trackAlbumOpen } from './components/GoogleAnalytics';
-import CookieConsent from 'react-cookie-consent';
+import CookieConsent, { Cookies } from 'react-cookie-consent';
 
 // PhotographyPortfolio: top-level page component that keeps application state
 // and orchestrates composed child components. Most UI is delegated to
@@ -53,22 +53,30 @@ const PhotographyPortfolio = () => {
   // Use reusable hook for lazy-loading images; re-run when path/album change.
   useLazyLoadImages([path, selectedAlbum]);
 
-  // Initialize Google Analytics and log pageviews on route change
+  // Track whether the user has accepted analytics cookies
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(() => {
+    return Cookies.get('photofy_analytics_consent') === 'true';
+  });
+
+  // Only initialize GA after the user has given consent
   useEffect(() => {
+    if (!analyticsEnabled) return;
     try {
       initGA();
     } catch (err) {
       // ignore
     }
-  }, []);
+  }, [analyticsEnabled]);
 
+  // Only log pageviews when analytics is enabled
   useEffect(() => {
+    if (!analyticsEnabled) return;
     try {
       logPageView(path + (location.search || ''));
     } catch (err) {
       // ignore
     }
-  }, [location, path]);
+  }, [location, path, analyticsEnabled]);
   // Handlers for opening / closing the full-screen album modal
   const openAlbumGallery = useCallback((album) => {
     trackAlbumOpen(album.title);
@@ -280,6 +288,16 @@ const PhotographyPortfolio = () => {
           <p className="text-sm">© 2025 Professional Photographer in Wylie, TX. All rights reserved. | Photography Portfolio serving Wylie, Dallas, Plano, Murphy, and surrounding areas.</p>
         </div>
       </footer>
+
+      {/* Cookie consent banner — gates GA initialization */}
+      <CookieConsent location="bottom" cookieName="photofy_analytics_consent" cookieValue="true" declineCookieValue="false" enableDeclineButton buttonText="Accept" declineButtonText="Decline"
+        style={{ background: '#1a1a1a', fontSize: '14px' }} buttonStyle={{ background: '#fff', color: '#111', borderRadius: '6px', padding: '8px 20px', fontWeight: '600' }}
+        declineButtonStyle={{ background: 'transparent', border: '1px solid #555', color: '#ccc', borderRadius: '6px', padding: '8px 20px' }}
+        onAccept={() => setAnalyticsEnabled(true)} onDecline={() => setAnalyticsEnabled(false)}
+      >
+        We use cookies for analytics to improve your experience.{' '}
+        <span style={{ fontSize: '12px', opacity: 0.8 }}>You can decline if you prefer.</span>
+      </CookieConsent>
 
       <style>{`
         @keyframes fadeIn {

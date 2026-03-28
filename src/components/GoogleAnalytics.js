@@ -4,9 +4,8 @@ import ReactGA from 'react-ga4';
 // Uses `VITE_GA_MEASUREMENT_ID` when available; otherwise falls back to a
 // hard-coded ID if present (legacy). If neither is set, functions are no-ops.
 
-const ENV_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || process.env.REACT_APP_GA_MEASUREMENT_ID;
-const FALLBACK_ID = 'G-75PZQRPQEE';
-const TRACKING_ID = ENV_ID || FALLBACK_ID;
+// GA measurement ID loaded from environment variable (see .env)
+const TRACKING_ID = process.env.REACT_APP_GA_MEASUREMENT_ID || '';
 
 export const initGA = (options = {}) => {
   if (!TRACKING_ID) {
