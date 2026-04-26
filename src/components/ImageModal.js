@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import SocialShare from './SocialShare';
 
 const ImageModal = ({ selectedImage, setSelectedImage }) => {
   if (!selectedImage) return null;
@@ -52,7 +53,7 @@ const ImageModal = ({ selectedImage, setSelectedImage }) => {
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-2">
         {album.images.map((_, idx) => (
-          <button
+        <div><button
             key={idx}
             onClick={() => {
               const newIndex = idx;
@@ -62,6 +63,12 @@ const ImageModal = ({ selectedImage, setSelectedImage }) => {
               idx === index ? 'bg-white w-8' : 'bg-white bg-opacity-50'
             }`}
           />
+          <SocialShare
+            photoUrl={image}
+            photoName={`${album.title} ${index + 1}`}
+            albumName={album.title}
+            className="mt-4"
+          /></div>
         ))}
       </div>
     </div>

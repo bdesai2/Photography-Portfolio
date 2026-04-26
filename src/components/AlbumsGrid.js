@@ -4,7 +4,7 @@ import React from 'react';
 // Clicking a tile calls `onOpenAlbum(album)` to open the modal in the parent.
 export default function AlbumsGrid({ albums, onOpenAlbum }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {albums.map((album, index) => (
         <div
           key={album.id}
@@ -16,7 +16,7 @@ export default function AlbumsGrid({ albums, onOpenAlbum }) {
           <img
             data-src={album.thumbnail}
             alt={album.title}
-            className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+            className="w-full h-80 md:h-96 lg:h-[28rem] object-cover transition-transform duration-500 group-hover:scale-110"
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-70 group-hover:opacity-90 transition-opacity" />

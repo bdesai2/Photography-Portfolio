@@ -41,7 +41,7 @@ export default function HeroCarousel({ heroImages }) {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-4 tracking-wider animate-slideUp">
             {heroImages[currentSlide]?.title || 'LENS & LIGHT'}
           </h1>
-          <p className="text-lg md:text-xl font-light tracking-wide animate-slideUp opacity-90 mb-4">
+          <p className="hidden md:block text-lg md:text-xl font-light tracking-wide animate-slideUp opacity-90 mb-4">
             {heroImages[currentSlide]?.description || 'Capturing Moments, Creating Memories'}
           </p>
         </div>
@@ -49,8 +49,8 @@ export default function HeroCarousel({ heroImages }) {
 
       {/* Tags + description overlay at the bottom of the image */}
       {heroImages[currentSlide]?.tags && heroImages[currentSlide].tags.length > 0 && (
-        <div className="absolute bottom-20 left-0 right-0 z-10 px-6 md:px-12">
-          <div className="flex flex-wrap justify-center gap-2">
+        <div className="hidden md:flex absolute bottom-20 left-0 right-0 z-10 px-6 md:px-12">
+          <div className="flex flex-wrap justify-center gap-2 w-full">
             {heroImages[currentSlide].tags.map((tag, i) => (
               <span
                 key={i}

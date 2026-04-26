@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import DownloadButton from './DownloadTracker';
+import SocialShare from './SocialShare';
 
 // GalleryModal: full-screen viewer for a selected album. It receives
 // navigation callbacks and the index setter from the parent so it stays
@@ -102,8 +103,14 @@ export default function GalleryModal({ selectedAlbum, selectedImage, closeGaller
             className="w-full max-h-[85vh] object-contain"
           />
 
-          {/* Download button for the current image */}
-          <div className="absolute top-4 right-4">
+          {/* Share and Download buttons for the current image */}
+          <div className="absolute top-4 right-4 flex gap-2 items-center">
+            <SocialShare
+              photoUrl={selectedAlbum.images[selectedImage].url}
+              photoName={`${selectedAlbum.title} ${selectedImage + 1}`}
+              albumName={selectedAlbum.title}
+              className="px-3 py-2 text-sm"
+            />
             <DownloadButton
               photoUrl={selectedAlbum.images[selectedImage].url}
               photoName={`${selectedAlbum.title.replace(/\s+/g, '-')}-${selectedImage + 1}.jpg`}
